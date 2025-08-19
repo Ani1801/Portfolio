@@ -7,11 +7,11 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // GitHub Pages doesn’t support Next.js image optimization
+    unoptimized: true,
   },
-  output: "export", // Generate static HTML for GitHub Pages
-  basePath: "/your-repo-name", // 👈 change this to your actual GitHub repo name
-  assetPrefix: "/your-repo-name/",
-};
+  basePath: "/Portfolio",   // 
+  assetPrefix: "/Portfolio/", // 
+}
 
-export default nextConfig;
+export default nextConfig
+
