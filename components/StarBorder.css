@@ -1,0 +1,89 @@
+.star-border-container {
+    display: block;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    isolation: isolate;
+}
+
+.border-gradient-bottom {
+    position: absolute;
+    width: 400%;
+    height: 2px;
+    opacity: 0;
+    bottom: 0;
+    right: -250%;
+    background: linear-gradient(to right, transparent, var(--star-color, #FF5722), transparent);
+    animation: star-movement-bottom 4s linear infinite;
+    z-index: 0;
+}
+
+.border-gradient-top {
+    position: absolute;
+    opacity: 0;
+    width: 400%;
+    height: 2px;
+    top: 0;
+    left: -250%;
+    background: linear-gradient(to right, transparent, var(--star-color, #FF5722), transparent);
+    animation: star-movement-top 4s linear infinite;
+    z-index: 0;
+}
+
+.inner-content {
+    position: relative;
+    color: white;
+    font-size: 16px;
+    padding: 24px;
+    border-radius: 12px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.star-border-container:hover .border-gradient-bottom,
+.star-border-container:hover .border-gradient-top {
+    opacity: 1;
+}
+
+@keyframes star-movement-bottom {
+    0% {
+        right: -250%;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        right: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes star-movement-top {
+    0% {
+        left: -250%;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
