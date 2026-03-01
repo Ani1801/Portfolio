@@ -10,9 +10,8 @@ export default function Experience() {
       company: 'EasLegal Partners',
       duration: 'Dec 2025 - Present',
       bullets: [
-        'Redesigned company website with modern UI/UX principles and responsive design',
-        'Managed end-to-end full-stack development including frontend, backend, and database',
-        'Optimized performance and fixed bugs to ensure scalable, stable applications',
+        'Redesigned the company website using modern UI/UX principles, ensuring responsive web design, improved usability, and consistent cross-device compatibility.',
+        'Managing end-to-end full-stack development, including frontend development, backend services, and database management, while actively debugging, fixing bugs, and performing performance optimization to ensure scalable and stable applications.',
       ],
       highlights: ['Full Stack Development', 'UI/UX Design', 'Responsive Design', 'Performance Optimization'],
     },
@@ -21,22 +20,21 @@ export default function Experience() {
       company: 'Revino',
       duration: 'Feb 2025 - May 2025',
       bullets: [
-        'Developed two high-traffic client websites with secure RESTful APIs',
-        'Architected reusable UI component library using React.js and TypeScript',
-        'Achieved 40% increase in user engagement with 100% responsiveness',
+        'Spearheaded the development of two high-traffic client websites, integrating secure RESTful APIs to optimize interactivity and drive a 40% increase in user engagement.',
+        'Architected a reusable UI component library using React.js and TypeScript, significantly reducing code redundancy and accelerating development velocity.',
+        'Managed the end-to-end lifecycle from concept to deployment, ensuring 100% responsiveness and delivery with zero major revisions.',
       ],
       highlights: ['React.js', 'TypeScript', 'RESTful APIs', 'UI Components'],
     },
     {
       role: 'Full Stack Developer',
       company: 'Mernix Consulting',
-      duration: '14 Jan 26 - 13 Feb 26',
+      duration: 'Jan 2025 - Feb 2026',
       bullets: [
-        'Developed responsive frontend components using React.js',
-        'Built and maintained backend services using Node.js and Express.js',
-        'Debugged, tested, and enhanced application functionality',
+        'Developed high-precision web tools using JavaScript and React, focusing on complex state management and mathematical logic to ensure 100% calculation accuracy.',
+        'Engineered modular, reusable UI components and optimized front-end performance, reducing code redundancy and improving cross-browser compatibility for utility-based applications.',
       ],
-      highlights: ['React.js', 'Node.js', 'Express.js', 'Testing & Debugging'],
+      highlights: ['React.js', 'Node.js', 'Complex State Management', 'Performance Optimization'],
     },
   ];
 

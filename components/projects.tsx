@@ -39,14 +39,14 @@ export default function Projects() {
       tech: ['Next.js', 'React', 'Tailwind CSS', 'Figma'],
       category: 'Internship Work',
       image: '/easlegal.png',
-      link: 'https://easlegal.com',
+      link: 'https://easlegal-v2.vercel.app/',
     },
     {
       title: 'Crowdsourced Issue Reporting Platform',
       description: 'Real-time civic application for issue tracking, developed for Smart India Hackathon (SIH 2024).',
       tech: ['MERN Stack', 'Redux', 'Socket.io', 'Leaflet'],
       category: 'SIH 2024 Project',
-      image: '/placeholder.jpg',
+      image: '/sih_project.jpg',
       link: null,
     },
   ];
